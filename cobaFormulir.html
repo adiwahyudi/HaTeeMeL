@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir</title>
+    </head>
+    <body>
+        <h1>Formulir Wajib Diisi</h1>
+        <form>
+            <fieldset>
+                <legend>Data Diri</legend>
+
+                    <div> <!--Biar Rapi--> <!--Nama dengan input text biasa-->
+                        <p>Nama: <input type="text" name="nama" ></p>
+                    </div>
+
+                    <div><!--Pilih satu dengan lingkaran-->
+                        <p>Jenis Kelamin:</p>
+                        <input type="radio" value="Laki-laki" />
+                        <label>Laki-kali</label>
+                        <input type="radio" name="jenis kelaminm" value="Perempuan" />
+                        <label>Perempuan</label>
+                    </div>
+        
+                    <div> <!--Chekcbox-->
+                        <p>Pilih:</p>
+                        <input type="checkbox" name="Front End">Front End
+                        <input type="checkbox" name="Back End">Back End
+                    </div>
+
+                    <div> <!-- Optional -->
+                        <p>Pilih #2:</p>
+                        <select>
+                            <option>Jalan</option> 
+                            <option>Motor</option>
+                            <option>Mobil</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <p>Tentang saya:</p>
+                        <textarea
+                            rows="10"
+                            cols="60"
+                            name="kolom tentang anda"
+                            placeholder="Isi disini"
+                        ></textarea>
+                    </div>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+    </body>
+
+</html>
